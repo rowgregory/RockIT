@@ -1,0 +1,234 @@
+body, html {
+    background: url(../images/galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin:0;
+    padding:0;
+    
+}
+svg {
+    pointer-events: none;
+    position: absolute;  
+    /* animation: zoomInDown 1s; */
+    
+}
+#recentSearch {
+    margin-top:-30px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:11vw;
+    opacity:.7;
+    
+}
+.material-icons.md-18 { font-size: 10px; }
+.rocket {
+    animation: zoomOut 5s infinite;
+}
+@keyframes zoomOut {
+    0% {
+        transform:scale(1);
+    }
+    25% {
+        transform:scale(.85);
+    }
+    75% {
+        transform:scale(.62);
+        transform: rotate(40deg);
+    }
+    100% {
+        transform:scale(.45);
+    }
+}
+#skipIntro{
+    float:right;
+    margin-top:70vw;
+    border-radius:10px;
+    background: rgba(0, 0, 0, 0.5);
+    border:none;
+    color:white;
+}
+.nav-wrapper{
+    background: rgba(0, 0, 0, 0.5);
+    color:white;
+    padding:3vw;
+}
+#openingContainer{
+    width:100%;
+    /* overflow:hidden; */
+    text-align: center;
+    padding:10vw 0 0 0;
+    position: absolute; 
+}
+.whatDoYouGot {
+    z-index:10;
+    color:white;
+}
+.pulse{
+    animation-duration:5s;
+}
+.switch1, .switch2, .switch3, .switch4  {
+    float:left;
+    margin:0 auto;
+    height:15vw;
+    width:15vw;    
+}
+.switch1{
+    background:url(../images/image_part_001.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    border-radius:20px 0px 0px 0px;
+}
+.switch3{
+    clear:both;
+    border-radius:0px 0px 0px 20px;
+    background:url(../images/image_part_003.jpg);
+    background-repeat: no-repeat;
+    background-size:100%; 
+}
+.switch2 {
+    border-radius:0px 20px 0px 0px;
+    background:url(../images/image_part_002.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.switch4 {
+    border-radius:0px 0px 20px 0px;
+    background:url(../images/image_part_004.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.rotateBoxes {
+    
+    margin-bottom:0;
+    background:transparent;
+    border:none;  
+}
+.rotateBoxes:focus{
+    background:transparent;
+}
+.country-btn {
+    margin:0 auto;
+    width:14vw;
+    font-size:2vw;
+    border:none;
+    margin:1.5vw;
+    margin-left:9.5vw;
+    padding:2vw;
+    background:rgba(16, 32, 63, 0.7);
+    color:white;
+    border-radius:15px;
+}
+#nav-mobile {
+    display:flex;
+    margin-left:8vw;
+    color:black;
+}
+.changeNow {
+    background: rgba(0, 0, 0, 0.5);
+    color:white;
+    padding:10px;
+    border:none;
+    border-radius:15px;
+    margin-left:2vw;
+    margin-top:.5vw;
+}
+#countryList{
+    overflow:hidden;
+    text-align: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+}
+#goodResults {
+    text-align:center;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    font-size:16px;
+    background:rgba(8, 8, 8, 0.5);
+    color:white;
+    margin-top:4vw;
+}
+.show-details {
+    width:30vw;
+    margin-bottom: 5vw;
+    margin-right:3vw;
+}
+#favorites {
+    position:absolute;
+    margin-top:-95px;
+    margin-left:1vw;
+    border-radius:15px;
+    padding:14px;
+    background:transparent;
+    color:#234;
+    border:none;
+}
+#favorites:hover{
+    color:yellow;
+}
+.starConcert {
+    border:none;
+    background: transparent;
+    color:yellow;
+}
+#concertInformation {
+    grid-template-columns: 33% 33% 33%;
+    margin:6vw;  
+    color:white;
+}
+.thisClass {
+    text-align:center;
+    border-radius:15px;
+    padding:3vw;
+    margin-right:3.5vw;
+    margin-bottom:5vw;
+    background: rgba(0, 0, 0, 0.5);
+} 
+div p._paragraph {
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.5vw;
+}
+#goingBack {
+    clear:both;
+    border-radius:10px;
+    background:transparent;
+    width:50px;
+    position:absolute;
+    margin-left:20px;
+    margin-top:-35px;
+    border: none;
+    color: white;
+}
+i.fa-trash-alt{
+    background: transparent;
+    border:none;
+    color:white;
+    border-radius:5px;
+    color:#345;
+}
+.removeConcert{
+    color:black;
+}
+#animateImage0:hover {
+    background:rgba(255, 0, 0, 0.5);
+    animation:wobble 2s infinite;
+    color:rgba(0, 0, 0);
+}
+#animateImage1:hover {
+    background:rgb(245, 125, 5, 0.5);
+    animation:rubberBand 2s infinite;
+    color:rgba(0, 0, 0);
+}
+#animateImage2:hover {
+    background:rgba(255, 251, 0, 0.5);
+    animation:tada 2s infinite;
+    color:rgba(0, 0, 0);
+}
+#animateImage3:hover {
+    background:rgba(3, 223, 14, 0.5);
+    animation:bounce 1s;
+    color:rgba(0, 0, 0);
+}
