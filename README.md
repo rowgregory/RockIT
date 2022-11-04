@@ -10,7 +10,7 @@
 
 ## Deployment
 
- * You can see this applition live here: [Rock-It](https://rowgregory.github.io/RockIt/)
+ * You can see this applition live here: [Rock-It](https://rowgregory.github.io/RockIT/)
      
 ## Demo Videos
 
